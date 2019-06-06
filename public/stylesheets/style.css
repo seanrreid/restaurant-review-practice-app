@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400|Poppins:400');
+
+html {font-size: 16px;}
+
+body {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {margin-bottom: 1.25em;}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209em;
+}
+
+h2 {font-size: 3.157em;}
+
+h3 {font-size: 2.369em;}
+
+h4 {font-size: 1.777em;}
+
+h5 {font-size: 1.333em;}
+
+small, .text_small {font-size: 0.75em;}
+
+.main-nav {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 60rem;
+}
+
+.topic-name {
+  font-weight: bold;
+}
+
+.has-input label {
+  background-color: hsl(0, 0%, 96%);
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 4px;
+  padding: 4px 6px;
+}
+
+.has-input label.active {
+  background-color: hsl(204, 86%, 53%);
+  color: white;
+  font-weight: bold;
+}
